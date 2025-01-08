@@ -19,21 +19,24 @@
     body {
       background-image: url('./images/bg-desktop.svg');
       background-color: hsl(257, 40%, 49%);
+      background-size: auto;
+      background-repeat: no-repeat;
     }
 
     .logo {
-      padding: 60px 0 0 60px;
+      padding: 0 0 10px 70px;
+      height: 180px;
+      width: 180px;
     }
 
     section {
+      padding-left: 70px;
       display: flex;
-      justify-content: space-between;
-      gap: 50px;
-      
+      gap: 10px;
     }
 
-    .left-image {
-      padding-left: 60px;
+    .illustration {
+
     }
     
     .attribution { font-size: 11px; text-align: center; }
@@ -41,16 +44,24 @@
   </style>
 </head>
 <body>
-  <div>
+  <main>
     <header>
-      <div class="logo">
-        <img class="" src="./images/logo.svg" alt="Logo">
-      </div>
+      <img src="./images/logo.svg" alt="Logo" class="logo">
     </header>
     <section>
-      
+      <div class="left">
+        <img src="./images/illustration-mockups.svg" alt="illustration" class="illustration">
+      </div>
+      <div class="right">
+        <h1>Build The Community <br> Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have <br> a voice, but so does your audience. Create connections with <br> users  as you engage in genuine discussion.</p>
+        <button type="button" class="btn">Register</button>
+      </div>
     </section>
-  </div>
+    <div>
+      
+    </div>
+  </main>
   <footer>
     <p class="attribution">
       Challenge by Frontend Mentor. 
